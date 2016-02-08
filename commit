@@ -1,5 +1,5 @@
 #!/bin/bash
 (cd dalangi && git add --update && git commit -m "tmp" && git push)
-(cd dataflow && git add --update && git commit -m "tmp" && git push)
-(cd common && git add --update && git commit -m "tmp" && git push)
+(cd dartflow && git add --update && git commit -m "tmp" && git push)
+(cd dart_analyses_common && git add --update && git commit -m "tmp" && git push)
 (cd goodenough && git add --update && git commit -m "tmp" && git push)

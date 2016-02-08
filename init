@@ -1,5 +1,8 @@
 #!/bin/bash
-mkdir dataflow && git clone -b dataflow https://github.com/cs-au-dk/darttypes.git dataflow
-mkdir goodenough && git clone -b goodenough https://github.com/cs-au-dk/darttypes.git goodenough
-mkdir dalangi && git clone -b dalangi https://github.com/cs-au-dk/darttypes.git dalangi
-mkdir common && git clone -b common https://github.com/cs-au-dk/darttypes.git common
+git clone https://github.com/cs-au-dk/goodenough.git
+cd goodenough
+mkdir deps
+cd deps 
+git clone https://github.com/cs-au-dk/dart_analyses_common.git
+git clone https://github.com/cs-au-dk/dalangi.git
+git clone https://github.com/cs-au-dk/dartflow.git

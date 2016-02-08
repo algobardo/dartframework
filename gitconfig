@@ -1,4 +1,4 @@
 #!/bin/bash
 cp gitconfigs/dalangi dalangi/.git/config
 cp gitconfigs/dataflow dataflow/.git/config
-cp gitconfigs/common common/.git/config
+cp gitconfigs/dart_analyses_common dart_analyses_common/.git/config

@@ -6,13 +6,10 @@
 	ignorecase = true
 	precomposeunicode = true
 [remote "origin"]
-	url = https://github.com/cs-au-dk/darttypes.git
+	url = https://github.com/cs-au-dk/dalangi.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
-	pushurl = https://github.com/cs-au-dk/darttypes.git
-	pushurl = git@casa02.nfit.au.dk:DART/dalangi.git
-[branch "dalangi"]
-	remote = origin
-	merge = refs/heads/dalangi
+	pushurl = https://github.com/cs-au-dk/dalangi.git
+	pushurl = ssh://git@casa02.nfit.au.dk/DART/dalangi.git
 [branch "master"]
 	remote = origin
 	merge = refs/heads/master
