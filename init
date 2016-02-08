@@ -1,7 +1,5 @@
 #!/bin/bash
 git clone https://github.com/cs-au-dk/goodenough.git
-(cd goodenough && mkdir all-deps)
-
-(cd goodenough/all-deps && git clone https://github.com/cs-au-dk/dart_analyses_common.git)
-(cd goodenough/all-deps && git clone https://github.com/cs-au-dk/dalangi.git)
-(cd goodenough/all-deps && git clone https://github.com/cs-au-dk/dartflow.git)
+git clone https://github.com/cs-au-dk/dart_analyses_common.git
+git clone https://github.com/cs-au-dk/dalangi.git
+git clone https://github.com/cs-au-dk/dartflow.git
