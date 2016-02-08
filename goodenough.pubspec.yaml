@@ -15,21 +15,15 @@ dependencies:
   dartson: "^0.2.5"
   code_transformers: any
   data_flow_analysis:
-    git:
-      url: ssh://git@github.com/cs-au-dk/dartflow.git
-      ref: master
+    path: all-deps/dartflow
   common:
-    git:
-      url: ssh://git@github.com/cs-au-dk/dart_analyses_common.git
-      ref: master
+    path: all-deps/dart_analyses_common
   dart_sdk_dependencies:
     git:
       url: https://github.com/algobardo/dart_sdk_dependencies.git
       ref: v1.12.2
   dalangi:
-    git:
-      url: ssh://git@github.com/cs-au-dk/dalangi.git
-      ref: master
+    path: all-deps/dalangi
   analyzer: ">=0.26.1-alpha.0 <0.27.0"
 
 dev_dependencies:
@@ -38,12 +32,3 @@ environment:
   sdk: ">1.11.0"
 executables:
   goodenough:
-
-
-dependency_overrides:
-  data_flow_analysis:
-    path: all-deps/dartflow
-  common:
-    path: all-deps/dart_analyses_common
-  dalangi:
-    path: all-deps/dalangi
