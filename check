@@ -1,0 +1,6 @@
+#!/bin/bash
+set -xe
+
+(cd dalangi && tools/local-build)
+
+(cd dataflow && pub upgrade > /dev/null && tuneup check --ignore-infos)

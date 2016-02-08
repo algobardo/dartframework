@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = https://github.com/cs-au-dk/darttypes.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	pushurl = https://github.com/cs-au-dk/darttypes.git
+	pushurl = git@casa02.nfit.au.dk:DART/dart-dataflow-analyzer.git
+[branch "dataflow"]
+	remote = origin
+	merge = refs/heads/dataflow
