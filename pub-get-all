@@ -1,0 +1,3 @@
+#!/bin/bash
+./dalangi/tools/pub-get-all
+./dartflow/tools/pub-get-all
