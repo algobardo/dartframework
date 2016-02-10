@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -xe
+
+(cd goodenough && git pull)
+(cd dartflow && git pull)
+(cd dalangi && git pull)
+(cd dart_analyses_common && git pull)
