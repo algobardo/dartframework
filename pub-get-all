@@ -1,3 +1,4 @@
 #!/bin/bash
 ./dalangi/tools/pub-get-all
 ./dartflow/tools/pub-get-all
+./goodenough/tools/pub-get-all
