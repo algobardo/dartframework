@@ -1,0 +1,4 @@
+#!/bin/bash
+./dalangi/tools/pub-upgrade-all
+./dartflow/tools/pub-upgrade-all
+./goodenough/tools/pub-upgrade-all
