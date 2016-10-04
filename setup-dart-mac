@@ -10,3 +10,4 @@ fi
 
 export PATH="$(pwd)/dart-sdk/bin:$PATH"
 export DART_SDK="$(pwd)/dart-sdk/lib"
+export PATH="$PATH":"~/.pub-cache/bin"
