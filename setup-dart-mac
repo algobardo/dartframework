@@ -6,6 +6,7 @@ else
 	curl https://storage.googleapis.com/dart-archive/channels/stable/release/1.12.2/sdk/dartsdk-macos-x64-release.zip > dart-sdk.zip
 	unzip dart-sdk.zip
 	rm dart-sdk.zip  
+	pub global activate -sgit https://github.com/algobardo/pathify.dart.git
 fi
 
 export PATH="$(pwd)/dart-sdk/bin:$PATH"
