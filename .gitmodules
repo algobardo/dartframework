@@ -1,0 +1,20 @@
+[submodule "analyzerutils"]
+	path = analyzerutils
+	url = https://github.com/algobardo/analyzerutils.git
+	branch = master
+[submodule "dalangi"]
+	path = dalangi
+	url = git@casadev.cs.au.dk:DART/dalangi.git
+	branch = master
+[submodule "goodenough"]
+	path = goodenough
+	url = git@casadev.cs.au.dk:DART/goodenough.git
+	branch = master
+[submodule "common"]
+	path = common
+	url = git@casadev.cs.au.dk:DART/dart_analyses_common.git
+	branch = master
+[submodule "dartflow"]
+	path = dartflow
+	url = git@casadev.cs.au.dk:DART/dartflow.git
+	branch = master
