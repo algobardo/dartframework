@@ -1,5 +1,5 @@
 #!/bin/bash
-git clone https://github.com/cs-au-dk/goodenough.git
-git clone https://github.com/cs-au-dk/dart_analyses_common.git
-git clone https://github.com/cs-au-dk/dalangi.git
-git clone https://github.com/cs-au-dk/dartflow.git
+git clone git@casadev.cs.au.dk:DART/goodenough.git
+git clone git@casadev.cs.au.dk:DART/dart_analyses_common.git
+git clone git@casadev.cs.au.dk:DART/dalangi.git
+git clone git@casadev.cs.au.dk:DART/dartflow.git

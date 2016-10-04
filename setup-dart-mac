@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ -d "./dart-sdk" ]; then
+	echo "Using dart-sdk in folder $(pwd)/dart-sdk"
+else
+	curl https://storage.googleapis.com/dart-archive/channels/stable/release/1.12.2/sdk/dartsdk-macos-x64-release.zip > dart-sdk.zip
+	unzip dart-sdk.zip
+	rm dart-sdk.zip  
+fi
+
+export PATH="$(pwd)/dart-sdk/bin:$PATH"
+export DART_SDK="$(pwd)/dart-sdk/lib"
