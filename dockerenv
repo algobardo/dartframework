@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run -ti -v $(pwd):/dartframewework algobardo/dart:1.12.2 bash
+docker run -ti --net host -v $(pwd):/root/goodenough -v $HOME/.ssh:/root/.ssh algobardo/dart:1.12.2 bash
