@@ -1,6 +1,6 @@
 [submodule "analyzerutils"]
 	path = analyzerutils
-	url = https://github.com/algobardo/analyzerutils.git
+	url = git@casadev.cs.au.dk:DART/analyzerutils.git
 	branch = master
 [submodule "dalangi"]
 	path = dalangi
